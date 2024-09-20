@@ -3,10 +3,12 @@
 
 $n-primary: #212529;
 $n-secondary: #e6e6e6;
+$n-third: #333333;
 
 $new-them-colors: (
   "n-primary": $n-primary,
   "n-secondary": $n-secondary,
+  "n-third": $n-third,
 );
 
 $theme-colors: map-merge($theme-colors, $new-them-colors);
