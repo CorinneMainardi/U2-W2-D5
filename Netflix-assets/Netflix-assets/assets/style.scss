@@ -4,12 +4,18 @@
 $n-primary: #212529;
 $n-secondary: #e6e6e6;
 $n-third: #333333;
+$n-four: #e0e0df;
 
 $new-them-colors: (
   "n-primary": $n-primary,
   "n-secondary": $n-secondary,
   "n-third": $n-third,
+  "n-four": $n-four,
 );
+@font-face {
+  font-family: Netflix Sans Font;
+  src: url(./netflix-sans-font/NetflixSans-Regular.woff2);
+}
 
 $theme-colors: map-merge($theme-colors, $new-them-colors);
 

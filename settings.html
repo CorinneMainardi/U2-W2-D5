@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Settings</title>
+    <link rel="stylesheet" href="./Netflix-assets/Netflix-assets/assets/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -18,7 +19,7 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
+  <body style="font-family: Netflix Sans Font">
     <header class="mt-t ms-5">
       <a href="./index.html"><img class="mt-5" height="40" src="./Netflix-assets/Netflix-assets/assets/netflix_logo.png" /></a>
     </header>
@@ -29,95 +30,118 @@
           <div class="col-lg-10 col-md-12">
             <h1 class="fs-3 text-dark">Account</h1>
             <hr class="text-secondary" />
-            <div class="d-flex flex-column flex-lg-row align-items-start">
-              <div class="first-section me-lg-4">
-                <p class="text-secondary fw-semibold fs-5">MEMBERSHIP & BILLING</p>
-                <button type="button" class="btn fs-5 text-dark bg-secondary fw-semibold rounded-0">Cancel membership</button>
-              </div>
-              <div class="flex-grow-1 mt-3 mt-lg-0">
-                <div class="d-flex justify-content-between">
-                  <div class="second-section text-end">
-                    <p class="text-dark">student.strive@school</p>
-                    <p class="secondary">password:***********</p>
-                    <p class="secondary">phone:12345678</p>
-                  </div>
-                  <div class="third-section text-end">
-                    <p><a class="text-primary text-decoration-none"> Change account email</a></p>
-                    <p><a class="text-primary text-decoration-none"> Change password</a></p>
-                    <p><a class="text-primary text-decoration-none"> Change phone number</a></p>
-                  </div>
-                </div>
-                <hr class="text-secondary" />
 
-                <div class="d-flex justify-content-between">
-                  <div class="second-section">
-                    <p class="text-dark"><i class="fab fa-paypal"></i>admin.strive@school</p>
-                  </div>
-                  <div class="third-section text-end">
-                    <p><a class="text-primary text-decoration-none"> Update payment info</a></p>
-                    <p><a class="text-primary text-decoration-none"> Billing details</a></p>
-                  </div>
-                </div>
+            <!-- Prima riga -->
+            <div class="row">
+              <div class="col-lg-3">
+                <p class="text-secondary fw-semibold fs-5">MEMBERSHIP & BILLING</p>
+                <button type="button" class="btn fs-5 text-dark bg-n-four fw-semibold rounded-0">Cancel membership</button>
               </div>
-              <hr class="text-secondary" />
+              <div class="col-lg-6">
+                <p class="text-dark fw-semibold">student.strive@school</p>
+                <p class="text-secondary fw-normal">password:***********</p>
+                <p class="text-secondary fw-normal">phone:12345678</p>
+              </div>
+              <div class="col-lg-3 text-end">
+                <p><a class="text-primary text-decoration-none"> Change account email</a></p>
+                <p><a class="text-primary text-decoration-none"> Change password</a></p>
+                <p><a class="text-primary text-decoration-none"> Change phone number</a></p>
+              </div>
             </div>
-            <hr class="text-secondary" />
-            <!--secondo spazio-->
-            <div class="d-flex flex-column flex-lg-row align-items-start">
-              <div class="first-section me-lg-4">
+
+            <div class="row">
+              <div class="offset-lg-3 col-lg-9">
+                <hr class="text-secondary" />
+              </div>
+            </div>
+
+            <!-- Seconda riga -->
+            <div class="row">
+              <div class="col-lg-3"></div>
+              <div class="col-lg-6">
+                <p class="text-dark fw-semibold"><i class="fab fa-paypal"></i> admin.strive@school</p>
+              </div>
+              <div class="col-lg-3 text-end">
+                <p><a class="text-primary text-decoration-none"> Update payment info</a></p>
+                <p><a class="text-primary text-decoration-none"> Billing details</a></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="offset-lg-3 col-lg-9">
+                <hr class="text-secondary" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-3"></div>
+              <div class="col-lg-6"></div>
+              <div class="col-lg-3 text-end">
+                <p><a class="text-primary text-decoration-none"> Redeem gift card or promo code</a></p>
+                <p><a class="text-primary text-decoration-none"> Where to buy gift card</a></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="offset-lg-3 col-lg-9">
+                <hr class="text-secondary" />
+              </div>
+            </div>
+
+            <!-- Terza riga -->
+            <div class="row">
+              <div class="col-lg-3">
                 <p class="text-secondary fw-semibold fs-5">PLAN DETAILS</p>
               </div>
-              <div class="flex-grow-1 mt-3 mt-lg-0">
-                <div class="d-flex justify-content-between">
-                  <div class="second-section">
-                    <p class="text-dark">Premium <span class="border border-dark">ULTRA-HD</span></p>
-                  </div>
-                  <div class="third-section">
-                    <p><a class="text-primary text-decoration-none"> Change plan</a></p>
-                  </div>
-                </div>
+              <div class="col-lg-6">
+                <p class="text-dark fw-semibold">Premium <span class="border border-2 border-dark">ULTRA-HD</span></p>
+              </div>
+              <div class="col-lg-3 text-end">
+                <p><a class="text-primary text-decoration-none"> Change plan</a></p>
               </div>
             </div>
+
             <hr class="text-secondary" />
-            <!--terza griglia-->
-            <div class="d-flex flex-column flex-lg-row align-items-start">
-              <div class="first-section me-lg-4">
+
+            <!-- Quarta riga -->
+            <div class="row">
+              <div class="col-lg-3">
                 <p class="text-secondary fw-semibold fs-5">SETTINGS</p>
               </div>
-              <div class="flex-grow-1 mt-3 mt-lg-0">
-                <div class="d-flex justify-content-between">
-                  <div class="second-section">
-                    <p><a class="text-primary text-decoration-none"> Parental control</a></p>
-                    <p><a class="text-primary text-decoration-none"> Test partecipation</a></p>
-                    <p><a class="text-primary text-decoration-none"> Menage download devices</a></p>
-                    <p><a class="text-primary text-decoration-none">Activate a device</a></p>
-                    <p><a class="text-primary text-decoration-none"> Recent device activity streaming</a></p>
-                    <p><a class="text-primary text-decoration-none">Sign-out off all devices</a></p>
-                  </div>
-                </div>
+              <div class="col-lg-6">
+                <p><a class="text-primary text-decoration-none"> Parental control</a></p>
+                <p><a class="text-primary text-decoration-none"> Test participation</a></p>
+                <p><a class="text-primary text-decoration-none"> Manage download devices</a></p>
+                <p><a class="text-primary text-decoration-none">Activate a device</a></p>
+                <p><a class="text-primary text-decoration-none"> Recent device streaming activity</a></p>
+                <p><a class="text-primary text-decoration-none">Sign out of all devices</a></p>
               </div>
             </div>
+
             <hr class="text-secondary" />
-            <!--ultima sezione-->
-            <div class="d-flex flex-column flex-lg-row align-items-start">
-              <div class="first-section me-lg-4">
+
+            <!-- Quinta riga -->
+            <div class="row">
+              <div class="col-lg-3">
                 <p class="text-secondary fw-semibold fs-5">MY PROFILE</p>
               </div>
-              <div class="flex-grow-1 mt-3 mt-lg-0">
-                <div class="d-flex justify-content-between">
-                  <div class="second-section">
-                    <p class="text-dark"><img src="./Netflix-assets/Netflix-assets/assets/avatar.png" height="20" /> Strive student</p>
-                  </div>
-                  <div class="third-section">
-                    <p><a class="text-primary text-decoration-none">Manage profile</a></p>
-                    <p><a class="text-primary text-decoration-none">Add profile name</a></p>
-                  </div>
-                </div>
-
-                <div class="d-flex justify-content-between">
-                  <div>
+              <div class="col-lg-6">
+                <p class="text-dark fw-semibold"><img src="./Netflix-assets/Netflix-assets/assets/avatar.png" height="25" /> Strive student</p>
+              </div>
+              <div class="col-lg-3 text-end">
+                <p><a class="text-primary text-decoration-none">Manage profile</a></p>
+                <p><a class="text-primary text-decoration-none">Add profile name</a></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3"></div>
+              <div class="col-lg-5">
+                <div class="row">
+                  <div class="col-6">
                     <p><a class="text-primary text-decoration-none"> Language</a></p>
-                    <p><a class="text-primary text-decoration-none"> Playback settings</a></p>
+                    <p><a class="text-primary text-decoration-none"> Payback- settings</a></p>
+                  </div>
+                  <div class="col-6">
+                    <p><a class="text-primary text-decoration-none"> View activity</a></p>
+                    <p><a class="text-primary text-decoration-none"> Racing</a></p>
                   </div>
                 </div>
               </div>
@@ -126,6 +150,7 @@
         </div>
       </div>
     </main>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
